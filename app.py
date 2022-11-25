@@ -7,9 +7,9 @@ def index():
 
 
 if __name__ == '__main__':
-    print('me executou pelo terminal')
+    print('Server started')
     app.run(host='0.0.0.0', port=80)
 else:
-    print('me executou como um módulo')
+    print('Something went wrong')
 
         
